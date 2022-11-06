@@ -45,6 +45,9 @@
         </div>
         <div class="card-body">
           <%= simple_format @event.content %>
+          <% if @event.only_woman == "女性限定" %>
+            <%= @event.only_woman_i18n %>
+          <% end %>
         </div>
       </div>
     </div>
