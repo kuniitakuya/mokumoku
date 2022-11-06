@@ -20,6 +20,8 @@ class Event < ApplicationRecord
     validates :held_at
   end
 
+  enum only_woman: { チェックあり: true, チェックなし: false }
+
   def past?
     held_at < Time.current
   end
