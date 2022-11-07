@@ -9,5 +9,5 @@ ja:
     user:
       gender:
         lgtm: "LGTM"
-        men: "男性"
-        women: "女性"
+        man: "男性"
+        woman: "女性"
