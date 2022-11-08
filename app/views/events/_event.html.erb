@@ -15,7 +15,7 @@
           <%= event.prefecture.name %>
         </div>
         <div>
-          <% if event.only_woman == "女性限定" %>
+          <% if event.only_woman? %>
             <%= event.only_woman_i18n %>
           <% end %>
         </div>
